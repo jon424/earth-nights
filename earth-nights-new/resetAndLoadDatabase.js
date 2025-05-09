@@ -13,6 +13,14 @@ const pool = new Pool({
 
 async function resetAndLoadDatabase() {
   try {
+    // Drop existing tables first
+    await pool.query(`
+      DROP TABLE IF EXISTS messages;
+      DROP TABLE IF EXISTS playlist;
+      DROP TABLE IF EXISTS card;
+    `);
+    console.log('Dropped existing tables');
+
     // Read the SQL file
     const sqlFile = path.join(__dirname, 'tables', 'database.sql');
     const sql = fs.readFileSync(sqlFile, 'utf8');

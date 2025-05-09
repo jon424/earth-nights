@@ -90,6 +90,10 @@ app.post("/send", async (req, res) => {
   }
 });
 
+app.get('/', (req, res) => {
+  res.json({ message: 'Earth Nights API is running' });
+});
+
 app.listen(PORT, () => {
   console.log(`server has started on http://localhost:${PORT}`);
 });

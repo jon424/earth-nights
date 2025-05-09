@@ -52,18 +52,114 @@ INSERT INTO playlist (
 ) 
 VALUES (
   1,
-  'Termination Dust',
-  'Earth Nights',
-  'https://dl.dropboxusercontent.com/scl/fi/dwn4clhzkjyzmhm418kzb/Termination-Dust.wav?rlkey=10e528l9lacxxahiucn2ocix0&raw=1',
-  'https://dl.dropboxusercontent.com/scl/fi/s3hdmhjknhdjoqqxsf0iw/Termination-Dust-Cover1.JPG?rlkey=knv6tvh9bgav2zzti1p3bjcq9&raw=1',
+  'The Opera House',
+  'The Olivia Tremor Control',
+  'https://dl.dropbox.com/scl/fi/kica3hl0liu7mvsik2pgl/the_opera_house.wav?rlkey=a5zs1dz8eotlq7knptlsl5qrz&st=ipgyl8v4&raw=1',
+  'https://dl.dropbox.com/scl/fi/maqfnh0i9x4338qkxwsqf/the_opera_house.jpg?rlkey=coykxxpki98rdwazfz44wk4dy&st=bwewa8eo&raw=1',
   '',
   '#46718b',
-  'Earth Nights Sessions',
-  'Welcome Back to Earth Nights!',
-  'We are back with new music and a fresh start.'
+  'Music From The Unrealized Film Script: Dusk At Cubist Castle',
+  'Welcome to Earth Nights!',
+  'Check out the music we have for you this week:'
 );
 
- INSERT INTO playlist (episode, name, artist, url, cover, lrc, theme, album, post_title, post_content1, post_content2, post_content3) VALUES (1, 'Race For The Prize', 'The Flaming Lips', 'https://dl.dropboxusercontent.com/scl/fi/dwn4clhzkjyzmhm418kzb/Termination-Dust.wav?rlkey=10e528l9lacxxahiucn2ocix0&raw=1', 'https://dl.dropbox.com/s/ob9pqwjp2q4yj2g/soft_bulletin.jpg', '', '#46718b', 'The Soft Bulletin', null, null, null, null
+INSERT INTO playlist (episode, name, artist, url, cover, lrc, theme, album, post_title, post_content1, post_content2, post_content3) 
+ VALUES (1, 
+ 'Future Games', 
+ 'Fleetwood Mac', 
+ 'https://dl.dropbox.com/scl/fi/yyj1qpit1z9gwrjcr8xg2/future_games.wav?rlkey=k1o4u6i2yu0gbxtlzaelhxmij&st=wbmdam0q&raw=1', 
+ 'https://dl.dropbox.com/scl/fi/jobzvlqw81ktjlppa7857/future_games.jpg?rlkey=axhqdfmjjlxsteu4qt1eziowq&st=emv7pv9z&raw=1', 
+ '', 
+ '#46718b', 
+ 'Future Games', null, null, null, null
+ );
+
+INSERT INTO playlist (episode, name, artist, url, cover, lrc, theme, album, post_title, post_content1, post_content2, post_content3) 
+ VALUES (1, 
+ 'New Dad Blues', 
+ 'Sunwatchers', 
+ 'https://dl.dropbox.com/scl/fi/dg1foqxyxlge1evsz0leg/new_dad_blues.wav?rlkey=tc80aiq201ad97p2gn9zsp0zm&st=tqc8fftk&raw=1', 
+ 'https://dl.dropbox.com/scl/fi/2rzivjqfh5rwhektgnycy/new_dad_blues.jpg?rlkey=m4to56jatszu7rndbf6ssw2w9&st=z9e6koq5&raw=1', 
+ '', 
+ '#46718b', 
+ 'Illegal Moves', null, null, null, null
+ );
+
+INSERT INTO playlist (episode, name, artist, url, cover, lrc, theme, album, post_title, post_content1, post_content2, post_content3) 
+ VALUES (1, 
+ 'Nothing Beats Reality', 
+ 'Pixel', 
+ 'https://dl.dropbox.com/scl/fi/6i7ae1xo7fqfdupym3vhi/nothing_beats_reality.wav?rlkey=uz3flje74z1xbxg433n1rr29l&st=qk0zh6b1&raw=1', 
+ 'https://dl.dropbox.com/scl/fi/knvw33mc3nm5a3jlfjjld/nothing_beats_reality.jpg?rlkey=jccil2hgbj4d88t23emz8l19x&st=uczvb7jh&raw=1', 
+ '', 
+ '#46718b', 
+ 'Golden Years', null, null, null, null
+ );
+
+INSERT INTO playlist (episode, name, artist, url, cover, lrc, theme, album, post_title, post_content1, post_content2, post_content3) 
+ VALUES (1, 
+ 'City Nights', 
+ 'Allan Holdsworth', 
+ 'https://dl.dropbox.com/scl/fi/5yiazj0bmeckmu6wq7kvb/city_nights.wav?rlkey=nkqfj9y9bpe4rmcvkvgl42ace&st=9todqgxm&raw=1', 
+ 'https://dl.dropbox.com/scl/fi/medaglcaedpjwf01oqy3n/city_nights.jpg?rlkey=ud9hk6igmdq89wk9rlcm5k5lt&st=9q5lao87&raw=1', 
+ '', 
+ '#46718b', 
+ 'Secrets', null, null, null, null
+ );
+
+INSERT INTO playlist (episode, name, artist, url, cover, lrc, theme, album, post_title, post_content1, post_content2, post_content3) 
+ VALUES (1, 
+ 'リサフランク420 / 現代のコンピュー', 
+ 'Macintosh Plus', 
+ 'https://dl.dropbox.com/scl/fi/z3a2nus6kpufb5eqt9yfn/macintosh_plus.wav?rlkey=a6716rjrzg9buozik1zfj7zu4&st=rhogl0pn&raw=1', 
+ 'https://dl.dropbox.com/scl/fi/n63eo144v5vfhlkn9izgg/macintosh_plus.jpg?rlkey=dq64sm6ry0f8m7yqepjxflce2&st=i764pkou&raw=1', 
+ '', 
+ '#46718b', 
+ 'Floral Shoppe', null, null, null, null
+ );
+
+INSERT INTO playlist (episode, name, artist, url, cover, lrc, theme, album, post_title, post_content1, post_content2, post_content3) 
+ VALUES (1, 
+ 'New Friends New Foes', 
+ 'DJ Screw', 
+ 'https://dl.dropbox.com/scl/fi/08u5dko6r18cgsjs3gevy/new_friends_new_foes.wav?rlkey=xrl2l5azu6lljwd53zi88hare&st=u4g0vp7m&raw=1', 
+ 'https://dl.dropbox.com/scl/fi/rkxblcs5916at2lbzmaoy/new_friends_new_foes.jpg?rlkey=eqnwve5ro8il08nkgft08gsuy&st=2r91xu0t&raw=1', 
+ '', 
+ '#46718b', 
+ 'The Legend', null, null, null, null
+ );
+
+INSERT INTO playlist (episode, name, artist, url, cover, lrc, theme, album, post_title, post_content1, post_content2, post_content3) 
+ VALUES (1, 
+ 'Too Much Lean in My Cup', 
+ 'RP Cola (feat. Mr. Fab)', 
+ 'https://dl.dropbox.com/scl/fi/lxvqghjf2eeh8a66q2kjb/too_much_lean_in_my_cup.wav?rlkey=whj5go0li1mhlmqe0k8esrq9y&st=56zpvis6&raw=1', 
+ 'https://dl.dropbox.com/scl/fi/ufqucsr406e5j2axfoztn/too_much_lean_in_my_cup.jpg?rlkey=b870pxn7io1kyxvxay2wfzluw&st=d10jxqwx&raw=1', 
+ '', 
+ '#46718b', 
+ 'Act Like U Know', null, null, null, null
+ );
+
+ INSERT INTO playlist (episode, name, artist, url, cover, lrc, theme, album, post_title, post_content1, post_content2, post_content3) 
+ VALUES (1, 
+ 'High Castle Rock', 
+ 'Chris Forsyth & The Solar Motel Band', 
+ 'https://dl.dropbox.com/scl/fi/q4sa4hl2vqzpqrhxruky9/high_castle_rock.wav?rlkey=ff8h6wg17wrd0erqr10qo0oid&st=bc4pe7sr&raw=1', 
+ 'https://dl.dropbox.com/scl/fi/uccqtz8r1xl4i37skkj6i/high_castle_rock.jpg?rlkey=60vp3ds15qwcxbp8xkp2169tt&st=nu1zruj5&raw=1', 
+ '', 
+ '#46718b', 
+ 'The Rarity of Experience', null, null, null, null
+ );
+
+INSERT INTO playlist (episode, name, artist, url, cover, lrc, theme, album, post_title, post_content1, post_content2, post_content3) 
+ VALUES (1, 
+ 'Like A Rolling Stone', 
+ 'Spirit', 
+ 'https://dl.dropbox.com/scl/fi/mlbesjipcuy9dqr4y5n7y/like_a_rolling_stone.wav?rlkey=3knru1x5xvv01gex5fikw2ckq&st=6yncxaqx&raw=1', 
+ 'https://dl.dropbox.com/scl/fi/qyw6h52dfj8g7n296c03q/like_a_rolling_stone.jpg?rlkey=95ddtk49uju2tjonw8t0kr9gs&st=m7qf3074&raw=1', 
+ '', 
+ '#46718b', 
+ 'Spirit of ''76', null, null, null, null
  );
 
 -- INSERT INTO playlist (episode, name, artist, url, cover, lrc, theme, album, post_title, post_content1, post_content2, post_content3) VALUES (1, 'Race For The Prize', 'The Flaming Lips', 'https://dl.dropboxusercontent.com/scl/fi/dwn4clhzkjyzmhm418kzb/Termination-Dust.wav?rlkey=10e528l9lacxxahiucn2ocix0&raw=1, 'https://dl.dropbox.com/s/ob9pqwjp2q4yj2g/soft_bulletin.jpg', '', '#46718b', 'The Soft Bulletin', null, null, null, null

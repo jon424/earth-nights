@@ -1,0 +1,539 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+/* * * * * * * * * * */
+/* * * * * * * * * * */
+/*Music Player Stylez*/
+
+
+
+.aplayer-wrap {
+    border: 6px groove #757F9A !important;  /* fallback for old browsers */
+    border: 6px groove -webkit-linear-gradient(to right, #D7DDE8, #757F9A) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    border: 6px groove linear-gradient(to right, #D7DDE8, #757F9A) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.aplayer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.aplayer{
+    width: 60%;
+    margin: auto;
+    border: 6px groove #757F9A;  /* fallback for old browsers */
+    border: 6px groove -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+    border: 6px groove linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.aplayer .aplayer-withlrc {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.aplayer-pic{
+    background-color: orangered;
+}
+
+.aplayer .aplayer-pic .aplayer-play {
+    background-color: white;
+}
+
+.aplayer .aplayer-pic .aplayer-pause {
+    background-color: white;
+}
+.aplayer .aplayer-pic .aplayer-button path {
+    fill: black;
+}
+
+.aplayer.aplayer-withlist .aplayer-info{
+    border-bottom: none;
+}
+
+.aplayer.aplayer-withlrc .aplayer-info{
+    background-color:rgba(230, 228, 232, 0.776);
+}
+
+.aplayer .aplayer-lrc {
+    display: none !important;
+}
+
+.aplayer-list, .aplayer-list li {
+ border: 2px groove black;
+ text-align: justify;
+
+}
+.aplayer .aplayer-list ol li.aplayer-list-light {
+    background: rgba(255, 255, 255, 0.461);
+}
+
+.aplayer .aplayer-list ol li .aplayer-list-index {
+    font-family: Roboto, sans-serif;
+    color: black;
+}
+
+.aplayer .aplayer-list ol li .aplayer-list-author, .aplayer-list-title {
+    font-family: Roboto, sans-serif;
+    font-size: 12pt;
+    color: black;
+}
+
+.aplayer-list {
+    background: grey;
+}
+
+ .aplayer-title, .aplayer-author {
+    font-family: Roboto, sans-serif;
+    font-size: 12pt !important;
+    /* color: rgb(232, 224, 224) !important; */
+    color: rgb(148, 148, 148) !important
+}
+.aplayer-list-title {
+    font-family: Roboto, sans-serif;
+    font-size: 12pt !important;
+    color: black !important;
+}
+/*.aplayer-list-author {
+    font-family: Roboto, sans-serif;
+    font-size: 12pt !important;
+    color: white !important;
+} */
+
+.aplayer-list-cur {
+    background: red !important;
+}
+
+.aplayer-icon .aplayer-icon-order:hover {
+    cursor: pointer !important;
+}
+
+.aplayer-time {
+    background: rgb(234, 231, 240);
+}
+
+.aplayer-time-inner {
+    color: black;
+}
+
+.aplayer-volume-wrap {
+    color: white !important;
+}
+
+/* * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * */
+/* * * * * Post Cardz * * * * * */
+.ui.card {
+    margin: auto;
+    margin-bottom: 70px !important;
+    Width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all .2s ease-in-out;
+}
+
+.ui.card .content {
+    background-color: rgba(237, 242, 239, 0.858);
+}
+
+#link-container * {
+    cursor: default;
+}
+
+.content, .content * {
+   cursor: pointer !important;
+}
+
+.image, .image * {
+    cursor: pointer !important;
+}
+
+.card-img {
+    
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px){
+    .ui.card {
+        margin: auto;
+        margin-bottom: 50px !important;
+        Width: 90%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition: all .2s ease-in-out;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .ui.card {
+        margin: auto;
+        margin-bottom: 70px !important;
+        Width: 70%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition: all .2s ease-in-out;
+    }
+}
+
+/* * * * * * * * * * * */
+/* * * * * * * * * * * */
+/* * * * * * * * * * * */
+/* Content of Episodes */
+.episode-app-page .word-content {
+text-align: left;
+font-family: Roboto, sans-serif;
+color: rgb(148, 148, 148);
+margin: auto;
+margin-top: 50px;
+word-wrap: break-word;
+}
+
+.episode-post-content {
+    font-family: 'Lato', sans-serif;
+    margin-right: 2px;
+    /* margin-left: */
+}
+
+.word-content .show-title .episode-post-content {
+font-family: 'Lato', sans-serif;
+text-align: center;
+color: rgb(148, 148, 148);
+}
+
+.episode-app-page, a{
+    margin-top: 0;
+    text-align: center;
+}
+
+.bottom-link {
+    margin-top: 0;
+    text-align: center;
+}
+
+
+a:hover {
+    cursor: pointer;
+}
+
+.show-title {
+font-family: Chicle, sans-serif;
+font-size: 2.5em;
+color: rgba(230, 228, 232, 0.776);
+}
+
+/*border: 1px solid rgba(230, 228, 232, 0.776);*/
+.tracklist-table {
+    margin-top: 1px;
+}
+table, th, td {
+    margin: auto;
+    border: 1px inset rgba(230, 228, 232, 0.776) !important;
+  }
+
+  td {
+      margin: 5%;
+  }
+
+  .table-div {
+    margin-top: 40px !important;
+  }
+
+th {
+    text-align: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    .aplayer {
+        border: 6px groove #757F9A;
+    }
+    .episode-app-page .word-content {
+        text-align: left;
+        font-family: Roboto, sans-serif;
+        color: rgb(148, 148, 148);
+        margin: 50px 10% 5% 10%;
+        }
+
+       .show-title {
+           font-size: 2em;
+
+        }
+
+    
+   }
+
+   @media only screen and (min-width: 480px) and (max-width: 899px){
+    .aplayer {
+        border: 6px groove #757F9A !important;
+    }
+    .episode-app-page .word-content {
+        text-align: left;
+        font-family: Roboto, sans-serif;
+        color: rgb(148, 148, 148);
+        margin: 50px 10% 5% 10%;
+        }
+
+    .show-title {
+        font-size: 2em;
+    }
+    .word-content p {
+        font-size: 1.15em;
+    }
+  
+
+  }
+   @media only screen and (min-width: 900px) {
+    .episode-app-page .word-content {
+        text-align: left;
+        font-family: Roboto, sans-serif;
+        color: rgb(148, 148, 148);
+        margin: 50px 20% 5% 20%;
+        }
+        /* table {
+            width: 100%;
+        } */
+   }
+
+   @media only screen and (min-width: 1400px) {
+    .aplayer {
+        border: 6px groove #757F9A;
+    }
+
+    .episode-app-page .word-content {
+        text-align: left;
+        font-family: Roboto, sans-serif;
+        color: rgb(148, 148, 148);
+        margin: 50px 30% 5% 30%;
+        }
+   }
+
+/* * * * * * * * * * * */
+/* * * * * * * * * * * */
+/* * * * * * * * * * * */
+/* * * * * * * * * * * */
+/* * OTHER STYLEZ * * */
+.footer {
+    font-size: 12px;
+    font-style: italic;
+    color: #999;
+}
+
+/* Modal Styles */
+.ui.modal {
+    background: #1a1a1a !important;
+    color: #fcfcfc !important;
+}
+
+.ui.modal > .header {
+    background: #2a2a2a !important;
+    color: #fcfcfc !important;
+    border-bottom: 1px solid #3a3a3a !important;
+}
+
+.ui.modal > .content {
+    background: #1a1a1a !important;
+    color: #fcfcfc !important;
+}
+
+.ui.modal > .actions {
+    background: #2a2a2a !important;
+    border-top: 1px solid #3a3a3a !important;
+}
+
+/* Form Styles */
+.ui.form .field > label {
+    color: #fcfcfc !important;
+}
+
+.ui.form input[type="text"],
+.ui.form input[type="email"],
+.ui.form textarea {
+    background: #2a2a2a !important;
+    color: #fcfcfc !important;
+    border: 1px solid #3a3a3a !important;
+}
+
+.ui.form input[type="text"]:focus,
+.ui.form input[type="email"]:focus,
+.ui.form textarea:focus {
+    background: #3a3a3a !important;
+    border-color: #F57F17 !important;
+}
+
+/* Button Styles */
+.ui.basic.blue.button {
+    color: #F57F17 !important;
+    border-color: #F57F17 !important;
+}
+
+.ui.basic.blue.button:hover {
+    background: #F57F17 !important;
+    color: #1a1a1a !important;
+}
+
+.ui.red.button {
+    background: #3a3a3a !important;
+    color: #fcfcfc !important;
+}
+
+.ui.red.button:hover {
+    background: #4a4a4a !important;
+}
+
+.ui.positive.button {
+    background: #F57F17 !important;
+    color: #1a1a1a !important;
+}
+
+.ui.positive.button:hover {
+    background: #ff8f27 !important;
+}
+
+/* Success Message */
+.modal-complete {
+    text-align: center;
+    padding: 20px;
+    color: #fcfcfc;
+}
+
+/* Error Message */
+.ui.form .field.error input,
+.ui.form .field.error textarea {
+    background: #3a1a1a !important;
+    border-color: #ff4d4d !important;
+}
+
+.ui.form .field.error > label {
+    color: #ff4d4d !important;
+}
+
+.ui.basic.blue.button {
+    margin: 50px;
+    color: #d02121 !important;
+}
+
+.ui.blue.button {
+    border-color: red;
+}
+hr {
+    display: block;
+    width: 7rem;
+    height: 1px;
+    margin: 2.5rem 0;
+    background-color: #eee;
+    border: 0;
+}
+
+a {
+    color: #08c;
+    text-decoration: none;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+.landing {
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.features {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.landing-button {
+    border: 1px solid #ccc;
+    border-radius: 33px;
+    padding: 10px 30px;
+    background-color: white;
+    display: inline-block;
+    margin-right: 20px;
+    color: #333;
+}
+
+.landing-button:hover {
+    border-color: #61dafb;
+    color: #61dafb;
+    text-decoration: none;
+}
+
+.aplayer-wrap {
+    width: 600px;
+    max-width: 100%;
+    margin: 20px 0 40px;
+    margin-bottom: 0;
+}
+
+@media only screen and (min-width: 374px) and (max-width: 767px) {
+    .aplayer {
+        width: 100%;
+        border: 6px groove #757F9A;
+    }
+
+    .aplayer-title, .aplayer-author {
+        font-size: 12px !important;
+
+    }
+    .aplayer-list-title, .aplayer-list-author{
+        font-size: 12px !important;
+    }
+    td {
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .aplayer {
+        width: 80%;
+        border: 6px groove #757F9A;
+    }
+    
+}
+@media only screen and (min-width: 1024px) and (max-width: 1535px) {
+    .aplayer {
+        border: 6px groove #757F9A;
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1536px) and (max-width: 1769px) {
+    .aplayer {
+        border: 6px groove #757F9A;
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 1770px) {
+    .aplayer {
+        border: 6px groove #757F9A;
+        width: 35%;
+    }
+}

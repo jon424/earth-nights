@@ -1,0 +1,31 @@
+.aplayer {
+    margin: 20px auto;
+    max-width: 800px;
+    background: #1a1a1a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .aplayer-list {
+    background: #2a2a2a !important;
+  }
+  
+  .aplayer-list-light {
+    background: #3a3a3a !important;
+  }
+  
+  .aplayer-list ol li {
+    border-top: 1px solid #3a3a3a !important;
+  }
+  
+  .aplayer-list ol li:hover {
+    background: #4a4a4a !important;
+  }
+  
+  .aplayer-list ol li.aplayer-list-light {
+    background: #3a3a3a !important;
+  }
+  
+  .aplayer-list ol li.aplayer-list-light .aplayer-list-cur {
+    background: #F57F17 !important;
+  }

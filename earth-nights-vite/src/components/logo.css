@@ -1,0 +1,123 @@
+/*you have Chewy Chicle and Bangers fonts*/
+
+.title-text {
+    font-family: 'Chicle', cursive;
+    font-size: 6em;
+    text-align: center;
+    color: rgba(230, 228, 232, 0.776);
+  }
+  
+  
+  .subtitle-text {
+    display: table;
+    margin: 0% 30% 0% 30%;
+    padding-bottom: 30px;
+    text-align: inherit;
+    font-size: 1.4em;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(148, 148, 148);
+  }
+  
+  /* * * * MEDIA QUERIES * * * */
+  
+  @media only screen and (min-width: 320px) and (max-width: 479px){
+    .title-text {
+      font-family: 'Chicle', cursive;
+      font-size: 3em;
+      text-align: center;
+      color: rgba(230, 228, 232, 0.776);
+    }
+    
+    .subtitle-text {
+      display: table;
+      margin: 0% 0% 0% 3%;
+      padding-bottom: 30px;
+      text-align: inherit; 
+      font-size: 1em;
+      font-family: 'Roboto', sans-serif;
+      color: rgb(148, 148, 148);
+    }
+   }
+  
+  @media only screen and (min-width: 480px) and (max-width: 767px){
+    .title-text {
+      font-family: 'Chicle', cursive;
+      font-size: 3em;
+      text-align: center;
+      color: rgba(230, 228, 232, 0.776);
+    }
+    
+    .subtitle-text {
+      display: table;
+      margin: 0% 11% 0% 15%;
+      padding-bottom: 30px;
+      text-align: inherit; 
+      font-size: 1em;
+      font-family: 'Roboto', sans-serif;
+      color: rgb(148, 148, 148);
+    }
+  }
+   
+  
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px){
+    .title-text {
+      font-family: 'Chicle', cursive;
+      font-size: 6em;
+      text-align: center;
+      color: rgba(230, 228, 232, 0.776);
+    }
+    
+    .subtitle-text {
+      display: table;
+      margin: 0% 8% 0% 11%;
+      padding-bottom: 30px;
+      text-align: inherit; 
+      font-size: 1.4em;
+      font-family: 'Roboto', sans-serif;
+      color: rgb(148, 148, 148);
+    }
+   }
+  
+  @media only screen and (min-width: 929px){
+    .title-text {
+      font-family: 'Chicle', cursive;
+      font-size: 6em;
+      text-align: center;
+      color: rgba(230, 228, 232, 0.776);
+    }
+    
+    .subtitle-text {
+      display: table;
+      margin: 0% 15% 0% 18%;
+      padding-bottom: 30px;
+      text-align: inherit; 
+      font-size: 1.4em;
+      font-family: 'Roboto', sans-serif;
+      color: rgb(148, 148, 148);
+    }
+   }
+  
+   @media only screen and (min-width: 1299px){
+    .title-text {
+      font-family: 'Chicle', cursive;
+      font-size: 6em;
+      text-align: center;
+      color: rgba(230, 228, 232, 0.776);
+    }
+    
+    .subtitle-text {
+      display: table;
+      margin: 0% 25% 0% 28%;
+      padding-bottom: 30px;
+      text-align: inherit; 
+      font-size: 1.4em;
+      font-family: 'Roboto', sans-serif;
+      color: rgb(148, 148, 148);
+    }
+   }
+   
+  
+  
+  
+  

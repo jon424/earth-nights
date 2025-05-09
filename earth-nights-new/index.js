@@ -63,14 +63,18 @@ app.get('/api/episode/:id', async (req, res) => {
 app.get('/api/episode/:id/playlist', async (req, res) => {
   try {
     const { id } = req.params;
+    console.log('Fetching playlist for episode:', id);
+    
     const episodeContent = await pool.query(
       "SELECT * FROM playlist WHERE episode = $1", [
       id
     ]);
-
-    res.json(episodeContent.rows)
+    
+    console.log('Query result:', episodeContent.rows);
+    res.json(episodeContent.rows);
   } catch (err) {
-    console.error(err.message)
+    console.error('Error fetching playlist:', err);
+    res.status(500).json({ error: err.message });
   }
 });
 

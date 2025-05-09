@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import { useRef } from 'react';
 import ReactAplayer from 'react-aplayer';
 import '../../styles/aplayer.css';
 
@@ -16,11 +16,6 @@ interface AudioPlayerProps {
 }
 
 const AudioPlayer = ({ audio }: AudioPlayerProps) => {
-  const [isPlaying, setIsPlaying] = useState(false);
-  const audioRef = useRef<HTMLAudioElement>(null);
-  // Remove or comment out the unused 'ap' variable
-  // const ap = useRef(null);
-
   const onPlay = () => {
     console.log('on play');
   };
@@ -33,8 +28,8 @@ const AudioPlayer = ({ audio }: AudioPlayerProps) => {
     console.error('Audio player error:', e);
   };
 
-  const onInit = (ap: any) => {
-    // this.ap = ap;
+  const onInit = () => {
+    // Initialize player if needed
   };
 
   const props = {

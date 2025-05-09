@@ -38,7 +38,6 @@ const Table: React.FC<TableProps> = ({ data }) => {
   };
 
   const getRowsData = () => {
-    const keys = getKeys();
     return data.map((row, index) => (
       <tr key={index}>
         <RenderRow data={row} />

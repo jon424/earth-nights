@@ -68,7 +68,7 @@ const PostContent: React.FC = () => {
     <>
       <AudioPlayer audio={audio} />
       <Link id='home-link' to='/' className='active'>Homepage</Link>
-      {episodeData.map((item, i) => (
+      {episodeData.map((item, index) => (
         // <div key={i} className="word-content">
         <>
           <h2 className="show-title">{item.post_title}</h2>

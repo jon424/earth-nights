@@ -73,9 +73,11 @@ const Footer: React.FC = () => {
     setFormState(newState);
 
     try {
-      const response = await fetch("/send", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
+      await fetch('https://earth-nights-api.onrender.com/send', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
         body: JSON.stringify({
           name: formState.name,
           email: formState.email,
@@ -84,7 +86,7 @@ const Footer: React.FC = () => {
       });
       setFormState(prev => ({ ...prev, complete: true }));
     } catch (err) {
-      console.error(err);
+      console.error('Error submitting form:', err);
     }
   };
 

@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "build": "npm install"
+    "postinstall": "node resetAndLoadDatabase.js"
   },
   "author": "",
   "license": "ISC",

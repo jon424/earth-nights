@@ -23,8 +23,17 @@ async function resetAndLoadDatabase(): Promise<void> {
     `);
     console.log('Dropped existing tables');
 
-    // Read the SQL file
-    const sqlFile = path.join(__dirname, '..', 'tables', 'database.sql');
+    // Read the SQL file - try both possible locations
+    let sqlFile = path.join(__dirname, 'tables', 'database.sql');
+    if (!fs.existsSync(sqlFile)) {
+      sqlFile = path.join(__dirname, '..', 'tables', 'database.sql');
+    }
+    
+    if (!fs.existsSync(sqlFile)) {
+      throw new Error(`Could not find database.sql at ${sqlFile}`);
+    }
+
+    console.log('Reading SQL file from:', sqlFile);
     const sql = fs.readFileSync(sqlFile, 'utf8');
 
     // Execute the SQL commands

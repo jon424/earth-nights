@@ -15,7 +15,7 @@
 
 # Environment variables
 **/.env
-**/render.yaml
+# **/render.yaml
 
 # Editor directories and files
 **/.vscode/*

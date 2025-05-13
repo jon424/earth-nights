@@ -10,8 +10,9 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
-    "postinstall": "npm run build"
+    "dev": "npm run build && node dist/setupDatabase.js && node dist/resetAndLoadDatabase.js && ts-node-dev --respawn --transpile-only src/index.ts",
+    "postinstall": "npm run build",
+    "reset-db": "npm run build && node dist/resetAndLoadDatabase.js"
   },
   "author": "",
   "license": "ISC",

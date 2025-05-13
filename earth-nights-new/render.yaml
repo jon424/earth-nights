@@ -2,20 +2,20 @@ services:
   - type: web
     name: earth-nights-api
     env: node
-    buildCommand: npm install && npm run build
+    buildCommand: npm install && npm run build && node dist/setupDatabase.js && node dist/resetAndLoadDatabase.js
     startCommand: npm start
     envVars:
       - key: PG_USER
-        value: postgres
+        sync: false
       - key: PG_PASSWORD
-        value: password
+        sync: false
       - key: PG_HOST
-        value: localhost
+        sync: false
       - key: PG_PORT
         value: 5432
       - key: PG_DATABASE
-        value: earth_nights
+        sync: false
       - key: NODE_ENV
         value: production
       - key: CORS_ORIGIN
-        value: https://your-frontend-url.onrender.com
+        value: https://earth-nights-frontend.onrender.com

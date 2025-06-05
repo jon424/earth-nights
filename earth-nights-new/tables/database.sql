@@ -32,7 +32,7 @@ CREATE TABLE messages (
 --episode 1
 INSERT INTO card (title, date_of_show, teaser, card_image) 
 VALUES (
-  'Earth Nights #1', 
+  'Earth Nights #1!', 
   'May 2025', 
   'Welcome to Earth Nights!', 
   '/assets/earth-one-card-photo.jpg'
